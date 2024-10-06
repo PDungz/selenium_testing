@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Change Directory
-        run: cd selenium_test # Chuyển đến thư mục dự án
+        run: cd selenium_testing # Chuyển đến thư mục dự án
 
       - name: Build with Maven
         run: mvn clean install
