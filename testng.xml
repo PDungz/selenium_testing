@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Selenium Test Suite">
+    <test name="Register Test">
+        <classes>
+            <class name="selenium_test.register_test"/>  <!-- Đường dẫn đến lớp kiểm thử của bạn -->
+        </classes>
+    </test>
+</suite>
