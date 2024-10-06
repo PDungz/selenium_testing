@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T00:04:16 ICT" name="Default suite" finished-at="2024-10-07T00:04:20 ICT" duration-ms="3435">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T00:04:16 ICT" name="Default test" finished-at="2024-10-07T00:04:20 ICT" duration-ms="3435">
+      <class name="selenium_test.register_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:16 ICT" name="setUp" finished-at="2024-10-07T00:04:17 ICT" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidFullName()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:17 ICT" name="testInvalidFullName" finished-at="2024-10-07T00:04:18 ICT" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidFullName -->
+        <test-method signature="testPasswordMismatch()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:18 ICT" name="testPasswordMismatch" finished-at="2024-10-07T00:04:18 ICT" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMismatch -->
+        <test-method signature="testUnderageUser()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:18 ICT" name="testUnderageUser" finished-at="2024-10-07T00:04:19 ICT" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnderageUser -->
+        <test-method signature="testValidRegistration()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:19 ICT" name="testValidRegistration" finished-at="2024-10-07T00:04:19 ICT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidRegistration -->
+        <test-method signature="testWeakPassword()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:19 ICT" name="testWeakPassword" finished-at="2024-10-07T00:04:20 ICT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeakPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_test.register_test@41d477ed]" started-at="2024-10-07T00:04:20 ICT" name="tearDown" finished-at="2024-10-07T00:04:20 ICT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_test.register_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
