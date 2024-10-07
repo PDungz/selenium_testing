@@ -7,14 +7,22 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class register_test {
 
     private WebDriver driver;
 
+//    @BeforeClass
+//    public void setUp() {
+//        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver.exe");
+//        driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("http://localhost/testselenium/form.html");
+//    }
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup();  // WebDriverManager sẽ tự động tải về ChromeDriver và thiết lập
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://localhost/testselenium/form.html");
