@@ -44,12 +44,12 @@ public class register_test {
         Assert.assertEquals(driver.findElement(By.id("fullnameError")).getText(), "Họ và Tên phải chứa ít nhất 2 từ.");
     }
 
-//    @Test
-//    public void testInvalidEmail() {
-//        fillForm("Nguyen Van A", "invalid-email", "Password@123", "Password@123", true, "2000-01-01");
-//        submitForm();
-//        Assert.assertEquals(driver.findElement(By.id("emailError")).getText(), "Vui lòng nhập đúng định dạng email.");
-//    }
+    @Test
+    public void testInvalidEmail() {
+        fillForm("Nguyen Van A", "invalid-email", "Password@123", "Password@123", true, "2000-01-01");
+        submitForm();
+        Assert.assertEquals(driver.findElement(By.id("emailError")).getText(), "Vui lòng nhập đúng định dạng email.");
+    }
 
     @Test
     public void testWeakPassword() {
@@ -65,12 +65,12 @@ public class register_test {
         Assert.assertEquals(driver.findElement(By.id("confirmPasswordError")).getText(), "Xác nhận mật khẩu không khớp.");
     }
 
-//    @Test
-//    public void testNoGenderSelected() {
-//        fillForm("Nguyen Van A", "nguyenvana@example.com", "Password@123", "Password@123", false, "2000-01-01");
-//        submitForm();
-//        Assert.assertEquals(driver.findElement(By.id("genderError")).getText(), "Vui lòng chọn giới tính.");
-//    }
+    @Test
+    public void testNoGenderSelected() {
+        fillForm("Nguyen Van A", "nguyenvana@example.com", "Password@123", "Password@123", false, "2000-01-01");
+        submitForm();
+        Assert.assertEquals(driver.findElement(By.id("genderError")).getText(), "Vui lòng chọn giới tính.");
+    }
 
     @Test
     public void testUnderageUser() {
