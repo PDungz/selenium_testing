@@ -2,7 +2,7 @@
 <suite name="Selenium Test Suite">
     <test name="Register Test">
         <classes>
-            <class name="selenium_testing.register_test"/>  <!-- Đường dẫn đến lớp kiểm thử của bạn -->
+            <class name="selenium_testing.register_test"/>
         </classes>
     </test>
 </suite>
